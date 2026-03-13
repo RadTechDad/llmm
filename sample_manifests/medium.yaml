@@ -1,0 +1,33 @@
+models:
+  - name: Llama-3.1-8B-Instruct
+    url: https://huggingface.co/bartowski/Meta-Llama-3.1-8B-Instruct-GGUF
+    quants:
+      - Q4_K_M
+      - Q5_K_M
+    lists:
+      - medium
+      - large
+
+  - name: Qwen2.5-14B-Instruct
+    url: https://huggingface.co/Qwen/Qwen2.5-14B-Instruct-GGUF
+    quants:
+      - Q4_K_M
+    lists:
+      - medium
+      - large
+
+  - name: DeepSeek-Coder-33B
+    url: https://huggingface.co/TheBloke/deepseek-coder-33B-instruct-GGUF
+    quants:
+      - Q4_K_M
+    lists:
+      - medium
+      - large
+
+  - name: Gemma-2-9B
+    url: https://huggingface.co/bartowski/gemma-2-9b-it-GGUF
+    quants:
+      - Q4_K_M
+    lists:
+      - medium
+      - large

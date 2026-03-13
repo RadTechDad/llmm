@@ -1,0 +1,28 @@
+models:
+  - name: Llama-3.1-70B-Instruct
+    url: https://huggingface.co/bartowski/Meta-Llama-3.1-70B-Instruct-GGUF
+    quants:
+      - Q4_K_M
+    lists:
+      - large
+
+  - name: Qwen2.5-32B-Instruct
+    url: https://huggingface.co/Qwen/Qwen2.5-32B-Instruct-GGUF
+    quants:
+      - Q4_K_M
+    lists:
+      - large
+
+  - name: Mixtral-8x7B-Instruct
+    url: https://huggingface.co/TheBloke/Mixtral-8x7B-Instruct-v0.1-GGUF
+    quants:
+      - Q4_K_M
+    lists:
+      - large
+
+  - name: Gemma-2-27B
+    url: https://huggingface.co/bartowski/gemma-2-27b-it-GGUF
+    quants:
+      - Q4_K_M
+    lists:
+      - large
